@@ -1,6 +1,6 @@
 {
   "name": "@applaud/optimize-cssnano-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "WebPack 2+ plugin for CSS minification after ExtractTextPluging",
   "main": "index.js",
   "scripts": {
@@ -29,7 +29,8 @@
     "webpack": "^4.0.0"
   },
   "dependencies": {
-    "@applaud/cssnano": "^1.0.3",
+    "@applaud/cssnano": "^1.0.5",
+    "@applaud/cssnano-preset-default": "^1.0.1",
     "postcss": "^7.0.0"
   },
   "devDependencies": {
